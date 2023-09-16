@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Ruhuna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel='stylesheet'href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+
+</head>
+<body>
+    <!-- HOME -->
+    <section class="hedder">
+        <nav>
+            <a href="Index.html"><img src="IMAGES/uni.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURCE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>University of Ruhuna</h1>
+            <h1>Faculty of Technology</h1>
+            <p>The Faculty of Technology was officially established on 2016 with four Departments,<br>
+                namely, Engineering Technology, Information and Communication Technology,<br> Biosystems
+                Technology and Multidisciplinary Studies.</p>
+            <a href="" class="hero-btn">Vist Us To Know More</a>   
+        </div>
+    </section>
+
+
+    <!-- Course -->
+    <section class="course">
+        <h1>Degree We Offer</h1>
+        <p class="hed">The Faculty of Technology was officially established on 2016 with four Departments, namely,<br> Engineering Technology, Information and Communication Technology, Biosystems Technology and Multidisciplinary Studies.</p>
+        <div class="row">
+           <div class="course-col">
+            <h3>Bachelor of Engineering Technology Honours - BET (Hons)</h3>
+            <p>TEngineering Technology Honours degree program offers four-year, full-time studies in various fields, mandatory industrial training, and multidisciplinary studies.</p>
+           </div>
+
+           <div class="course-col">
+            <h3>Information and Communication Technology Honours - BICT (Hons)</h3>
+            <p>The Department of Information and Communication Technology offers a Bachelor of Information and Communication Technology Honours degree in Application Development, preparing students for professional careers in ICT.</p>
+           </div>
+
+           <div class="course-col">
+            <h3>Degree of Biosystems Technology Honours - BBST (Hons)</h3>
+            <p>Department of Biosystems Technology offers Honours Degree Program, focusing on Agricultural, Biomedical, Bioprocessing, Environmental Biosystems, encompassing Basic Science, Statistics, ICT, Entrepreneurship, and Management.</p>
+           </div>
+        </div>
+
+    </section>
+
+    <section class="campus">
+        <h1>Our University</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia doloribus ex magni ullam consectetur dignissimos eaque, maxime, quasi ea sit inventore nihil blanditiis natus, impedit sunt odit perspiciatis repellat quisquam.</p>
+        <div class="row">
+                <div class="campus-col">
+                    <img src="./IMAGES/ict.jfif" alt="ict">
+                    
+
+                </div>
+        </div>
+
+    </section>
+
+    <!-- javascript to toggle menu-->
+    
+    <script>
+        var navlinks = document.getElementById("navLinks");
+
+                function showMenu(){
+                    navlinks.style.right = "0";
+
+                }
+
+                function hideMenu(){
+                    navlinks.style.right ="-200px"
+                }
+    </script>
+
+    
+
+</body>
+</html>
